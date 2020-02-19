@@ -8,7 +8,7 @@ class Configs {
   }
 
   get DatabaseUrl () {
-    return process.env.DB_URL || 'mongodb://localhost:27017'
+    return process.env.DB_URL || 'mongodb+srv://deploy:walletodb@cluster0-9a9zw.mongodb.net/test?retryWrites=true&w=majority'
   }
 
   get DatabaseName () {
